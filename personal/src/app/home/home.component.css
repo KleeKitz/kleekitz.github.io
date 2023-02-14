@@ -1,0 +1,21 @@
+.pageContent {
+    margin-left: 25%
+}
+
+.project-card {
+    max-width: 400px;
+}
+
+.project-image.tictactoe {
+    background-image: url('/assets/tictactoe_avatar.png');
+    background-size: cover;
+}
+
+.project-image.tictactoeplus {
+    background-image: url('/assets/empty.png');
+    background-size: cover;
+}
+
+.mat-grid-list {
+    position: static;
+}

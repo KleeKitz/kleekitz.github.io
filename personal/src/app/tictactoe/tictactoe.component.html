@@ -1,0 +1,38 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<div class="pageContent">
+    <div id="gameContent">
+        <nav class="navbar navbar-nav bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand">TicTacToe+</a>
+            </div>
+        </nav>
+        <div id="gamespace" class="container text-center" style="margin-top: 50px">
+            <div id="winner" class="container text-center">Click a square to play!</div>
+            <div id="grid" class="container text-center" width="300px">
+                <!-- js provided -->
+            </div>
+            <div id="controlContainer" class="container">
+                <input type="button" value="New Game" (click)="newGame()">
+                <mat-button-toggle-group [formControl]="formControl">
+                    <mat-button-toggle value="x" aria-label="X Goes First">
+                        <span>X</span>
+                    </mat-button-toggle>
+                    <mat-button-toggle value="o" aria-label="O Goes First">
+                        <span>O</span>
+                    </mat-button-toggle>
+                </mat-button-toggle-group>
+            </div>
+            <div id="consoleContainer" class="container text-center" width="500px">
+                <input id="console" readonly type="text" class="console">
+            </div>
+        </div>
+        <footer class="text-center text-lg-start text-white fixed-bottom" style="background-color: #3e4551">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2023 Copyright:
+                <a class="text-white" href="https://github.com/KleeKitz/kleekitz.github.io/">KleeKitz @ GitHub</a>
+            </div>
+        </footer>
+    </div>
+</div>
