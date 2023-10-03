@@ -194,6 +194,14 @@ function checkWinner(player: Player) {
         player.winner = true;
     }
 
+    if (yZeroCount == 3) {
+        player.winner = true;
+    } else if (yOneCount == 3) {
+        player.winner = true;
+    } else if (yTwoCount == 3) {
+        player.winner = true;
+    }
+
     /*
 
     0,0 - 0,1 - 0,2
