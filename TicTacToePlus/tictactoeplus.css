@@ -1,0 +1,28 @@
+.container {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.cell {
+    border: 1px black solid;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clickField {
+    display: flex;
+    width: inherit;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.console {
+    display: flex;
+    width: 500px;
+    margin-top: 20px;
+}
